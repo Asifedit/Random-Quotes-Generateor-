@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Timmana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+* {
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: #f7f7ff;
+}
+.favorite-container{
+    min-height: 40%;
+}
+.wrapper,
+.favorite-container {
+  width: min(500px, 90%);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 2em 1em;
+  box-shadow: 0 5px 40px 0 rgba(88, 83, 153, 0.15);
+  border-radius: 1em;
+  background-color: #4579E1;
+}
+.container {
+  padding: 0px;
+  padding-top: 20px;
+}
+.container p {
+  color: #d6d6d6;
+  margin: 1em 0 1.5em 0;
+}
+.container h3 {
+  color: #ffffff;
+}
+#btns button,
+.favorite-container button {
+  background-color: #FFFFFF;
+  border: none;
+  padding: 1em 2em;
+  border-radius: 3em;
+  margin-top: 0em;
+  
+}
+.button-container {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  top: 20px;
+  padding: 10px;
+  width: 85%; 
+}
+
+.button-container button {
+  border: none;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 70%;
+  font-size: 1.2em;
+  background: transparent;
+}
+
+.favorite-container h3 {
+  color: #ffffff;
+}
+.favorite-container ul {
+  list-style: none;
+  
+  color: #FFFDFD;
+}
+.favorite-container li {
+  padding: 1em 0;
+}
+.active {
+  color: #202020;
+}
+.click{
+    
+    color: red;
+}
+#author{
+    color: #3A3434;
+    font-family: "Averia Serif Libre";
+    text-transform: capitalize;
+}
+#capture-container{
+   background: #4579E1;
+}
+#quote{
+    color: #E8FFED;
+    font-family: "Timmana", serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.fa-download{
+    font-size: 20px;
+    text-align: center;
+    padding:3px 15px;
+}
