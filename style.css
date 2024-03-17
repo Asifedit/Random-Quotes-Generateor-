@@ -10,7 +10,7 @@ body {
   background-color: #f7f7ff;
 }
 .favorite-container{
-    min-height: 40%;
+    min-height: 60%;
 }
 .wrapper,
 .favorite-container {
@@ -63,8 +63,9 @@ body {
   background: transparent;
 }
 
-.favorite-container h3 {
+.favorite-container  {
   color: #ffffff;
+  background: #2B37BC;
 }
 .favorite-container ul {
   list-style: none;
@@ -89,6 +90,8 @@ body {
 #capture-container{
    background: #4579E1;
 }
+
+
 #quote{
     color: #E8FFED;
     font-family: "Timmana", serif;
@@ -102,4 +105,10 @@ body {
     font-size: 20px;
     text-align: center;
     padding:3px 15px;
+}
+#btns button{
+    height: 40px;
+    text-align: center;
+    padding: 10px 20px 40px 10px;
+    
 }
