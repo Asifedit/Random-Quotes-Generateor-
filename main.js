@@ -144,7 +144,7 @@ document.getElementById('Images').addEventListener('click', function () {
     html2canvas(document.querySelector('#capture-container')).then(function (canvas) {
         var link = document.createElement('a');
         link.style.backgroundColor='red'
-        link.download = 'quote_screenshot.png';
+        link.download = 'Quote_By_Asif.png';
         link.href = canvas.toDataURL('image/png');
         link.click();
     });
