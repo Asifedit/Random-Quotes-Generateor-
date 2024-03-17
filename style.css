@@ -112,3 +112,9 @@ body {
     padding: 10px 15px 40px 10px;
     
 }
+#btns{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
