@@ -47,6 +47,7 @@ const getQuote = () => {
     .then((data) => data.json())
     .then((item) => {
       updateQuote(item.content, item.author);
+      copyButton.style.color = ''
     });
     
   
@@ -88,7 +89,6 @@ const copyToClipboard = (text) => {
 // list-of-favourite-quotes
 copyButton.addEventListener('click', (e) => {
    copyToClipboard(quote.innerText);
-   copyButton.classList.add('active')
    copyButton.style.color = '#202020'
 });
 
